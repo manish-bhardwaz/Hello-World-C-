@@ -10,6 +10,8 @@ namespace CAHW
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Title = "Tentitive App.";
             Console.Write("works...with changes too");
             Console.ReadKey(); 
         }
